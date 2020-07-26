@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       text-align: center; 
+    }
+    
+</style>
+<body>
+    <div class="bg">
+    <h1><span class="title">Todo</span>List</h1>
+<div class="inputDiv">
+    <input placeholder="Enter to add" type="text" id="todo-item">
+<button class="add" onclick="add()">Add</button>
+<button class="add" onclick="delAll()">Delete all</button>
+</div>
+
+<div>
+    <ul class="container"  id="list">
+    </ul>
+</div>
+
+</div>
+</body>
+
+<script src="app.js"></script>
+</html>
